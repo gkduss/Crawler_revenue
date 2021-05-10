@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+scrapy = "*"
+requests = "*"
+beautifulsoup4 = "*"
+pillow = "*"
+selenium = "*"
+dash = "==1.19.0"
+pandas = "*"
+dash-cytoscape = "*"
+biopython = "*"
+google-cloud-vision = "*"
+konlpy = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
