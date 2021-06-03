@@ -241,6 +241,7 @@ def select_available_urls(db_conection):
         connection.commit()
         return [url for (url,) in result.fetchall()]
 
+# google OCR
 
 def detect_text_uri(uri):
     """Detects text in the file located in Google Cloud Storage or on the Web.

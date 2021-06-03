@@ -1,7 +1,8 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
- 
-CHROMEDRIVER_PATH = './drivers/chromedriver.exe' # Windows는 chromedriver.exe로 변경
+
+CHROMEDRIVER_PATH = r'D:\Users\user\Desktop\CrawlProject\crawler\drivers\chromedriver.exe' # Windows는 chromedriver.exe로 변경 
+# CHROMEDRIVER_PATH = './drivers/chromedriver.exe' # Windows는 chromedriver.exe로 변경
 WINDOW_SIZE = "1920,1080"
  
 chrome_option = Options()
